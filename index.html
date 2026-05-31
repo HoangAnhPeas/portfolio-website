@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hoàng Anh Peas | Unity Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<nav>
+
+    <div class="logo">Peas</div>
+
+    <div class="nav-right">
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+</nav>
+
+<header class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-glow"></div>
+
+    <img src="assets/avatar.png" alt="Avatar">
+
+    <h1>Hoàng Anh Peas</h1>
+
+    <p class="hero-description">
+        Unity Developer focused on gameplay programming,
+        game systems, optimization and creating engaging
+        player experiences.
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="#projects" class="btn">
+            View Projects
+        </a>
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hoanganhpeas003@gmail.com"
+           class="btn-outline">
+            Contact Me
+        </a>
+
+    </div>
+
+    <div class="hero-stats">
+
+        <div>
+            <h3>3+</h3>
+            <span>Projects</span>
+        </div>
+
+        <div>
+            <h3>8+</h3>
+            <span>Technologies</span>
+        </div>
+
+        <div>
+            <h3>∞</h3>
+            <span>Learning</span>
+        </div>
+
+    </div>
+
+</header>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p class="section-text">
+        I'm an aspiring Unity Developer who enjoys building
+        gameplay systems, player controllers, UI frameworks,
+        backend services and interactive experiences.
+
+        My primary focus is Unity and C#, while continuously
+        learning software engineering practices, optimization
+        techniques and deployment workflows.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <i class="fa-brands fa-unity"></i>
+            <h3>Game Development</h3>
+            <p>Unity, C#, Gameplay Systems</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <h3>Backend</h3>
+            <p>Node.js, PostgreSQL</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-docker"></i>
+            <h3>Tools</h3>
+            <p>Git, Docker, Linux</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="journey">
+
+    <h2>Learning Journey</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>2023</h3>
+            <p>Started learning Unity and C#.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2024</h3>
+            <p>Built gameplay systems and personal projects.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2026</h3>
+            <p>Learning backend development, Docker and deployment.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid" id="projectGrid"></div>
+
+</section>
+
+<section id="github">
+
+    <h2>GitHub Activity</h2>
+
+    <div class="github-stats">
+
+        <img
+        src="assets/notFoud404.jpg">
+
+        <img
+        src="assets/notFoud404.jpg">
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p class="section-text">
+        Interested in collaborating, discussing game development,
+        or simply saying hello?
+    </p>
+
+    <a class="btn"
+       href="https://mail.google.com/mail/?view=cm&fs=1&to=hoanganhpeas003@gmail.com">
+        Send Email
+    </a>
+
+    <div class="socials">
+
+        <a href="https://github.com/hoanganhpeas"
+           target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://www.facebook.com/hoanganh.peas.5/"
+           target="_blank">
+            Facebook
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Hoàng Anh Peas. All rights reserved.
+    </p>
+
+</footer>
+
+<div class="modal" id="projectModal">
+
+    <div class="modal-content">
+
+        <span class="close-modal">&times;</span>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <a id="modalGithub"
+           class="btn"
+           target="_blank">
+            View Source Code
+        </a>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

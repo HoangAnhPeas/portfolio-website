@@ -1,0 +1,23 @@
+[
+    {
+        "title": "DeliveryS",
+        "description": "Delivery-focused simulation project featuring player movement, day/night cycle, spawning systems and game settings.",
+        "image": "assets/DeliveryS.png",
+        "github": "https://github.com/hoanganhpeas/DeliveryS",
+        "tags": ["Unity", "C#", "Gameplay"]
+    },
+    {
+        "title": "Survival Prototype",
+        "description": "Inventory system, item pickups, enemy AI and crafting mechanics.",
+        "image": "assets/notFoud404.jpg",
+        "github": "#",
+        "tags": ["Unity", "C#", "AI"]
+    },
+    {
+        "title": "Personal Backend",
+        "description": "Backend API powered by Node.js, PostgreSQL and Docker deployment.",
+        "image": "assets/notFoud404.jpg",
+        "github": "#",
+        "tags": ["Node.js", "PostgreSQL", "Docker"]
+    }
+]
