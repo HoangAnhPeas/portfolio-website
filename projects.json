@@ -7,11 +7,11 @@
         "tags": ["Unity", "C#", "Gameplay"]
     },
     {
-        "title": "Survival Prototype",
-        "description": "Inventory system, item pickups, enemy AI and crafting mechanics.",
-        "image": "assets/notFoud404.jpg",
-        "github": "#",
-        "tags": ["Unity", "C#", "AI"]
+        "title": "DeliveryRush",
+        "description": "Fast-paced 2D delivery game with package collection, deliveries, enemy obstacles and health management.",
+        "image": "assets/DeliveryRush.png",
+        "github": "https://github.com/HoangAnhPeas/Delivery-Rush",
+        "tags": ["Unity", "C#", "Gameplay"]
     },
     {
         "title": "Personal Backend",
