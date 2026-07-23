@@ -3,21 +3,54 @@
         "title": "DeliveryS",
         "description": "Delivery-focused simulation project featuring player movement, day/night cycle, spawning systems and game settings.",
         "image": "assets/DeliveryS.png",
+        "gif": "",
         "github": "https://github.com/hoanganhpeas/DeliveryS",
-        "tags": ["Unity", "C#", "Gameplay"]
+        "tags": ["Unity", "C#", "Gameplay"],
+        "role": "Solo Developer",
+        "timeline": "Add development time",
+        "tools": "Unity, C#",
+        "highlights": [
+            "Designed and programmed the complete delivery gameplay loop.",
+            "Implemented player movement and interaction systems.",
+            "Built the day/night cycle and object spawning systems.",
+            "Created the game settings and supporting UI."
+        ],
+        "challenge": "Add the hardest technical challenge you faced and explain how you solved it."
     },
     {
         "title": "DeliveryRush",
         "description": "Fast-paced 2D delivery game with package collection, deliveries, enemy obstacles and health management.",
         "image": "assets/DeliveryRush.png",
+        "gif": "",
         "github": "https://github.com/HoangAnhPeas/Delivery-Rush",
-        "tags": ["Unity", "C#", "Gameplay"]
+        "tags": ["Unity", "C#", "2D Gameplay"],
+        "role": "Solo Developer",
+        "timeline": "Add development time",
+        "tools": "Unity, C#",
+        "highlights": [
+            "Designed the package collection and delivery loop.",
+            "Implemented enemy obstacles and player health management.",
+            "Created the 2D gameplay rules and moment-to-moment interactions.",
+            "Handled the project from initial design through implementation."
+        ],
+        "challenge": "Add the hardest technical challenge you faced and explain how you solved it."
     },
     {
         "title": "Personal Backend",
         "description": "Backend API powered by Node.js, PostgreSQL and Docker deployment.",
         "image": "assets/notFoud404.jpg",
-        "github": "#",
-        "tags": ["Node.js", "PostgreSQL", "Docker"]
+        "gif": "",
+        "github": "",
+        "tags": ["Node.js", "PostgreSQL", "Docker"],
+        "role": "Solo Developer",
+        "timeline": "Add development time",
+        "tools": "Node.js, PostgreSQL, Docker",
+        "highlights": [
+            "Designed and implemented the backend API independently.",
+            "Created persistent data storage with PostgreSQL.",
+            "Containerized the application and database workflow with Docker.",
+            "Practiced deployment and backend service configuration."
+        ],
+        "challenge": "Add the hardest technical challenge you faced and explain how you solved it."
     }
 ]

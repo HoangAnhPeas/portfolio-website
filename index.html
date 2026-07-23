@@ -6,6 +6,9 @@
 
     <title>Hoàng Anh Peas | Unity Developer</title>
 
+    <link rel="icon" type="image/png" href="assets/avatar.png">
+    <link rel="apple-touch-icon" href="assets/avatar.png">
+
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +30,7 @@
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#technical">Technical</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -61,6 +65,11 @@
         player experiences.
     </p>
 
+    <p class="availability">
+        <span aria-hidden="true"></span>
+        Open to Unity Developer internships and junior opportunities
+    </p>
+
     <div class="hero-buttons">
 
         <a href="#projects" class="btn">
@@ -71,6 +80,13 @@
            class="btn-outline">
             Contact Me
         </a>
+
+        <!-- Replace this with href="assets/Hoang-Anh-Peas-Resume.pdf" when ready. -->
+        <span class="btn-outline btn-disabled"
+              aria-disabled="true"
+              title="Résumé file coming soon">
+            Résumé coming soon
+        </span>
 
     </div>
 
@@ -106,7 +122,9 @@
 
         My primary focus is Unity and C#, while continuously
         learning software engineering practices, optimization
-        techniques and deployment workflows.
+        techniques and deployment workflows. Every featured
+        project on this portfolio was designed and developed
+        independently by me.
     </p>
 
 </section>
@@ -145,6 +163,57 @@
 
 </section>
 
+<section id="technical">
+
+    <h2>Technical Highlights</h2>
+
+    <p class="section-text section-intro">
+        A practical overview of the systems I have designed and
+        implemented across my solo projects.
+    </p>
+
+    <div class="technical-grid">
+
+        <article class="technical-card">
+            <span class="technical-number">01</span>
+            <h3>Gameplay Architecture</h3>
+            <p>Player movement, interaction rules, health, collection and delivery loops built in C#.</p>
+        </article>
+
+        <article class="technical-card">
+            <span class="technical-number">02</span>
+            <h3>World Systems</h3>
+            <p>Day and night cycles, object spawning and systems that keep the game world active.</p>
+        </article>
+
+        <article class="technical-card">
+            <span class="technical-number">03</span>
+            <h3>Enemies & Obstacles</h3>
+            <p>Enemy behaviours, hazards and gameplay rules that create pressure for the player.</p>
+        </article>
+
+        <article class="technical-card">
+            <span class="technical-number">04</span>
+            <h3>UI & Game State</h3>
+            <p>Settings, health feedback and interfaces that communicate game state clearly.</p>
+        </article>
+
+        <article class="technical-card">
+            <span class="technical-number">05</span>
+            <h3>Backend Foundations</h3>
+            <p>REST API development with Node.js, PostgreSQL and containerized deployment using Docker.</p>
+        </article>
+
+        <article class="technical-card">
+            <span class="technical-number">06</span>
+            <h3>Debugging & Iteration</h3>
+            <p>Profiling, testing and refining independently from initial idea through implementation.</p>
+        </article>
+
+    </div>
+
+</section>
+
 <section id="journey">
 
     <h2>Learning Journey</h2>
@@ -174,6 +243,11 @@
 
     <h2>Featured Projects</h2>
 
+    <p class="section-text section-intro">
+        Solo projects covering game design, programming, UI and
+        technical implementation. Select a project for the full case study.
+    </p>
+
     <div class="project-grid" id="projectGrid"></div>
 
 </section>
@@ -182,14 +256,92 @@
 
     <h2>GitHub Activity</h2>
 
-    <div class="github-stats">
+    <div class="github-stats" aria-label="GitHub profile statistics">
+        <article class="github-stat">
+            <strong id="githubRepos">—</strong>
+            <span>Public repositories</span>
+        </article>
 
-        <img
-        src="assets/notFoud404.jpg">
+        <article class="github-stat">
+            <strong id="githubFollowers">—</strong>
+            <span>Followers</span>
+        </article>
 
-        <img
-        src="assets/notFoud404.jpg">
+        <article class="github-stat">
+            <strong id="githubStars">—</strong>
+            <span>Total stars</span>
+        </article>
+    </div>
 
+    <div class="contribution-panel">
+        <div class="contribution-header">
+            <div>
+                <h3>Contribution History</h3>
+                <p id="contributionSummary">
+                    Loading contribution history…
+                </p>
+            </div>
+
+            <div id="contributionYears"
+                 class="contribution-years"
+                 aria-label="Select contribution year">
+            </div>
+        </div>
+
+        <div id="contributionStatus"
+             class="contribution-status"
+             aria-live="polite">
+            Loading contribution calendar…
+        </div>
+
+        <div id="contributionChart"
+             class="contribution-chart"
+             hidden>
+            <div class="contribution-scroll"
+                 tabindex="0"
+                 aria-label="Scrollable GitHub contribution calendar">
+                <div id="contributionMonths"
+                     class="contribution-months"
+                     aria-hidden="true">
+                </div>
+
+                <div class="contribution-grid-wrap">
+                    <div class="contribution-weekdays"
+                         aria-hidden="true">
+                        <span>Mon</span>
+                        <span>Wed</span>
+                        <span>Fri</span>
+                    </div>
+
+                    <div id="contributionCalendar"
+                         class="contribution-calendar"
+                         role="img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="contribution-footer">
+                <span>Contribution activity includes commits, pull requests, issues and reviews.</span>
+
+                <div class="contribution-legend" aria-label="Contribution intensity">
+                    <span>Less</span>
+                    <i data-level="0"></i>
+                    <i data-level="1"></i>
+                    <i data-level="2"></i>
+                    <i data-level="3"></i>
+                    <i data-level="4"></i>
+                    <span>More</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="github-repos-heading">Recently Updated Repositories</h3>
+
+    <div id="githubReposList"
+         class="github-repos"
+         aria-live="polite">
+        <p class="github-status">Loading GitHub activity…</p>
     </div>
 
 </section>
@@ -232,21 +384,58 @@
 
 </footer>
 
-<div class="modal" id="projectModal">
+<div class="modal"
+     id="projectModal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="modalTitle"
+     aria-hidden="true">
 
     <div class="modal-content">
 
-        <span class="close-modal">&times;</span>
+        <button class="close-modal" type="button" aria-label="Close project details">
+            &times;
+        </button>
 
         <h2 id="modalTitle"></h2>
 
-        <p id="modalDescription"></p>
+        <div id="modalMedia" class="modal-media"></div>
 
-        <a id="modalGithub"
-           class="btn"
-           target="_blank">
-            View Source Code
-        </a>
+        <p id="modalDescription" class="modal-description"></p>
+
+        <dl class="project-meta">
+            <div>
+                <dt>Role</dt>
+                <dd id="modalRole"></dd>
+            </div>
+            <div>
+                <dt>Timeline</dt>
+                <dd id="modalTimeline"></dd>
+            </div>
+            <div>
+                <dt>Tools</dt>
+                <dd id="modalTools"></dd>
+            </div>
+        </dl>
+
+        <div class="case-study-section">
+            <h3>What I Built</h3>
+            <ul id="modalHighlights"></ul>
+        </div>
+
+        <div class="case-study-section">
+            <h3>Technical Challenge</h3>
+            <p id="modalChallenge"></p>
+        </div>
+
+        <div class="modal-actions">
+            <a id="modalGithub"
+               class="btn"
+               target="_blank"
+               rel="noopener noreferrer">
+                View Source Code
+            </a>
+        </div>
 
     </div>
 
